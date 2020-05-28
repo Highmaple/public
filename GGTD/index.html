@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript">
+
+    //js
+    var v = new Date().getMilliseconds();
+
+    var js = document.createElement("script");
+
+    document.getElementsByTagName("head")[0].appendChild(js);
+
+    js.src = "dist/app.js?v=" + v;   
+
+</script>
+<head>
+  <title>GGTD</title>
+  <!-- <script src="dist/app.js"></script> -->
+</head>
+
+<body>
+  <div id="game"></div>
+</body>
+
+</html>
